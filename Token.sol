@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("KUMA INU", "KUMA", 4) {
-        _mint(msg.sender, 10000000 * (4 ** uint256(decimals())));
+    constructor () public ERC20Detailed("BOGE COIN", "BGC", 2) {
+        _mint(msg.sender, 10000000 * (2 ** uint256(decimals())));
     }
 }
