@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("SUNSTAKE", "SSKv2", 18) {
+    constructor () public ERC20Detailed("SSKv2", "SSKv2", 18) {
         _mint(msg.sender, 3458347 * (10 ** uint256(decimals())));
     }
 }
