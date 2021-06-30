@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("FINIX", "FINIX", 10) {
-        _mint(msg.sender, 10000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("2022", "2022", 10) {
+        _mint(msg.sender, 20220 * (10 ** uint256(decimals())));
     }
 }
