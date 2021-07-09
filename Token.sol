@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("POLLUX", "POLLUX", 10) {
-        _mint(msg.sender, 10000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("TRADETOKEN", "TTO", 10) {
+        _mint(msg.sender, 30000 * (10 ** uint256(decimals())));
     }
 }
