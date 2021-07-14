@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("DIGIMAXTOKEN", "DGMT", 10) {
+    constructor () public ERC20Detailed("YSOYCHAIN", "YSOY", 10) {
         _mint(msg.sender, 30000 * (10 ** uint256(decimals())));
     }
 }
